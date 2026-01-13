@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.2" bbox="-1.8284 -3.7854 -3.1254 2.8952 1.7822 1.3712" area="10" targetId="220d876a53d943a89780c91347c62f38" name="front_office1" pathAuthoring="220d876a53d943a89780c91347c62f38_authoring.glb" pathOcclusion="220d876a53d943a89780c91347c62f38_occlusion.3dt" pathNavMesh="220d876a53d943a89780c91347c62f38_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>

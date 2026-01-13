@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QCARInfo>
+    <TargetSet version="3.4">
+        <AreaTarget version="5.2" bbox="0.3272 -1.2345 -3.7500 2.4849 0.8917 -0.9444" area="1" targetId="c2be88cd97124bf79443955d32a76107" name="elecopenareatarget" pathAuthoring="c2be88cd97124bf79443955d32a76107_authoring.glb" pathOcclusion="c2be88cd97124bf79443955d32a76107_occlusion.3dt" pathNavMesh="c2be88cd97124bf79443955d32a76107_navmesh.glb" cloudTarget="false" />
+    </TargetSet>
+</QCARInfo>
