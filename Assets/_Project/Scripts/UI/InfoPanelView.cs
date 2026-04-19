@@ -1,13 +1,18 @@
 using System;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Video;
 
 public class InfoPanelView : MonoBehaviour
 {
+    [SerializeField] private GameObject mainPanel;
+    
     [SerializeField] private Button extraInfoButton;
     [SerializeField] private GameObject extraInfoPanel;
     [SerializeField] private VideoPlayer videoPlayer;
+    
+    [SerializeField] private TextMeshProUGUI textInfo;
     
     private void OnEnable()
     {
@@ -32,5 +37,14 @@ public class InfoPanelView : MonoBehaviour
             extraInfoPanel.SetActive(true);
             videoPlayer.Play();
         }
+    }
+
+    public void ShowInfoPanel(bool isShow) {
+        mainPanel.SetActive(isShow);
+    }
+
+    public void ChnageInfoPanelContent(string text, VideoClip videoClip, Image image = null) {
+        videoPlayer.clip = videoClip;
+        textInfo.text = text;
     }
 }

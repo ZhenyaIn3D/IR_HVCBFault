@@ -11,18 +11,22 @@ public class StepController : MonoBehaviour {
     [SerializeField] private DataBaseSO scriptDB;
     
     private int currentStep = 0;
-
-    private void OnEnable()
-    {
-        mainMenuView.SetYesButton(YesCallback);
-        mainMenuView.SetNoButton(NoCallback);
+    
+    private void OnEnable() {
+        mainMenuView.SetContinueButton(NextStep);
+        
+        scriptDB.steps[0].OnYesClicked += StepZeroClickedYes;
+        scriptDB.steps[0].OnNoClicked += NextStep;
     }
 
     public void ShowStep(int index) {
+        mainMenuView.SetYesButton(scriptDB.steps[index].OnYesClicked);
+        mainMenuView.SetNoButton(scriptDB.steps[index].OnNoClicked);
         targetObserver.StartScanning(index);
         currentStep = index;
-        mainMenuView.SetQuestionText(scriptDB.steps[currentStep].question);
-        mainMenuView.ChangeStep(currentStep);
+        mainMenuView.ChangeStep(currentStep, scriptDB.steps[index].stepName, scriptDB.steps[index].infoPanelText);
+        mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
+        mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip);
     }
     
     public void YesCallback() {
@@ -42,7 +46,7 @@ public class StepController : MonoBehaviour {
     
     // For buttons
     public void NextStep() {
-        if (currentStep < 13) {
+        if (currentStep < 12) {
             currentStep++;    
         } else {
             mainMenuView.ShowEndScreen();
@@ -53,7 +57,16 @@ public class StepController : MonoBehaviour {
     public void RestartApplication() {
         currentStep = 0;
         mainMenuView.HideEndScreen();
+        mainMenuView.ChangeStep(currentStep, scriptDB.steps[0].stepName, scriptDB.steps[0].infoPanelText);
+        mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
+        mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip);
         mainMenuView.ShowWelcomePanel();
     }
+
+    private void StepZeroClickedYes() {
+        currentStep = 5;
+        NextStep();
+    }
+    
  
 } 

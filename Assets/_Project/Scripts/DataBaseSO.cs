@@ -1,12 +1,18 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Video;
 
 [Serializable]
-public struct Step {
-    public string question;
-    public string noAnswer;
-    public string yesAnswer;
+public class Step {
+    public string infoPanelText;
+    public string stepName;
+    public VideoClip infoVideoClip;
+    public Sprite infoSprite;
+    public UserInputType userInputType;
+    public UnityAction OnYesClicked;
+    public UnityAction OnNoClicked;
 }
 
 [CreateAssetMenu(fileName = "DataBase", menuName = "SO", order = 0)]

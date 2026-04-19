@@ -4,19 +4,26 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class MainMenuView : MonoBehaviour
 {
-    [SerializeField] private string[] stepsName;
+    // [SerializeField] private string[] stepsName;
     [SerializeField] private StepCell[]  stepCells;
     
     public Button YesButton;
     public Button NoButton;
+    public Button ContinueButton;
 
     public TextMeshProUGUI questionText;
 
     [SerializeField] private GameObject stepsPanel;
     public GameObject informationPanel;
+    
+    [SerializeField] private UserInputView userInputView;
+
+    [SerializeField] private GameObject aboutAppPanel;
+    [SerializeField] private  InfoPanelView infoPanelView;
     
     [SerializeField] private GameObject MuteImage;
 
@@ -31,13 +38,15 @@ public class MainMenuView : MonoBehaviour
     public Color FutureStepCellColor;
     
     public AudioSource audioSource;
+    
+    [SerializeField] private DataBaseSO scriptDB;
 
     private void OnEnable() {
-        for (var index = 0; index < stepCells.Length; index++) {
+        for (var index = 0; index < scriptDB.steps.Count; index++) {
             var showIndex = index + 1;
             var stepCell = stepCells[index];
             stepCell.stepNumberText.text = (showIndex >= 10 ? "" : "0") + showIndex;
-            stepCell.stepText.text = stepsName[index];
+            stepCell.stepText.text = scriptDB.steps[index].stepName;
             stepCell.stepNumberText.color = FutureStepCellColor;
         }
         
@@ -63,24 +72,21 @@ public class MainMenuView : MonoBehaviour
         NoButton.onClick.RemoveAllListeners();
         NoButton.onClick.AddListener(callback);
     }
-    
-    public void SetQuestionText(string text) {
-        questionText.text = text;
 
-        if (text == "") {
-            NoButton.gameObject.SetActive(false);
-            YesButton.gameObject.SetActive(false);
-        } else {
-            NoButton.gameObject.SetActive(true);
-            YesButton.gameObject.SetActive(true);
-        }
+    public void SetContinueButton(UnityAction callback) {
+        ContinueButton.onClick.RemoveAllListeners();
+        ContinueButton.onClick.AddListener(callback);
     }
 
+    public void ChangeUserInputType(UserInputType userInputType) {
+        userInputView.SwitchUserInput(userInputType);
+    }
+    
     public void ChangeVisabilityStepsPanel() {
         stepsPanel.SetActive(!stepsPanel.activeSelf);
     }
 
-    public void ChangeStep(int index)
+    public void ChangeStep(int index, string stepName, string stepInfo)
     {
         var showIndex = index + 1;
         stepText.text = (showIndex >= 10 ? "" : "0") + showIndex.ToString();
@@ -89,10 +95,11 @@ public class MainMenuView : MonoBehaviour
         string ltrMark = "\u200E"; 
 
         // Форматируем номер: если меньше 10, добавляем 0 спереди (01, 02...)
-        string formattedIndex = (index < 10 ? "0" : "") + index;
+        string formattedIndex = (showIndex < 10 ? "0" : "") + showIndex;
 
         // Собираем строку с маркерами
-        nameStepText.text = $"{stepsName[index]}";
+        string reversedIndex = formattedIndex[1].ToString() + formattedIndex[0].ToString();
+        nameStepText.text = $"{stepName} | {reversedIndex}";
         
         for (var i = 0; i < index; i++) {
             var stepCell = stepCells[i];
@@ -116,9 +123,15 @@ public class MainMenuView : MonoBehaviour
     
     public void ShowWelcomePanel() {
         WelcomePanel.SetActive(true);
+        aboutAppPanel.SetActive(true);
     }
 
     public void HideWelcomePanel() {
         WelcomePanel.SetActive(false);
+        
+    }
+
+    public void ChangeInfoPanelViewContent(string text, VideoClip videoClip, Image image = null) {
+        infoPanelView.ChnageInfoPanelContent(text, videoClip, image);
     }
 }
