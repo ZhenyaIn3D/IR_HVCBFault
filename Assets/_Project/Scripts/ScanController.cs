@@ -6,7 +6,7 @@ using Vuforia;
 public class ScanController : MonoBehaviour
 {
     [Header("Перетащите сюда ваш Area Target или Image Target")]
-    public ObserverBehaviour targetObserver;
+    public ObserverBehaviour[] targetsObserver;
 
     [Header("Статус (для проверки)")]
     [SerializeField] private bool isScanning = true;
@@ -15,35 +15,31 @@ public class ScanController : MonoBehaviour
     public Action OnScanLost;
     
     // Вызовите эту функцию кнопкой "Начать"
-    public void StartScanning()
-    {
-        if (targetObserver != null)
-        {
-            targetObserver.enabled = true; // Включаем компонент Vuforia
+    
+    
+    private ObserverBehaviour currentTargetObserver;
+    public void StartScanning(int index) {
+        if (currentTargetObserver != null) {
+            currentTargetObserver.enabled = false;
+            currentTargetObserver.gameObject.SetActive(false);
+        }
+        
+        currentTargetObserver = targetsObserver[index];
+        if (currentTargetObserver != null) {
+            currentTargetObserver.gameObject.SetActive(true);
+            currentTargetObserver.enabled = true; // Включаем компонент Vuforia
             isScanning = true;
-            NotificationPopUp.instance.ShowNotification("Start scanning target, move camera smoothly");
         }
     }
 
-    // Вызовите эту функцию кнопкой "Стоп"
-    public void StopScanning() {
-        if (targetObserver != null)
-        {
-            targetObserver.enabled = false; // Отключаем компонент
-            isScanning = false;
-            Debug.Log("Vuforia: Поиск цели ОСТАНОВЛЕН");
-        }
-    }
     
     public void ScanFound() {
-        Debug.Log("ScanFound");
         OnScanFound?.Invoke();
-        NotificationPopUp.instance.ShowNotification("Scan found target");
+        NotificationPopUp.instance.ShowNotification(true);
     }
 
     public void ScanLost() {
-        Debug.Log("ScanLost");
         OnScanLost?.Invoke();
-        NotificationPopUp.instance.ShowNotification("Scan lost target");
+        NotificationPopUp.instance.ShowNotification(false);
     }
 }

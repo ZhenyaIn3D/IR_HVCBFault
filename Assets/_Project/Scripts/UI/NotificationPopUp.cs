@@ -3,6 +3,7 @@ using _Project.Scripts.UI;
 using TMPro;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace _Project.Scripts.UI
 {
@@ -11,8 +12,10 @@ namespace _Project.Scripts.UI
         public static NotificationPopUp instance;
         
         [SerializeField] private float showingTime = 5f;
-        [SerializeField] private GameObject panel;
-        [SerializeField] private TextMeshProUGUI text;
+        [SerializeField] private Image panel;
+        
+        [SerializeField] private Color noFoundColor;
+        [SerializeField] private Color foundColor;
 
         private void Awake() {
             if (instance == null) {
@@ -20,34 +23,12 @@ namespace _Project.Scripts.UI
             }
         }
         
-        public void ShowNotification(string _text) {
-            text.text = _text;
-            panel.SetActive(true);
-            Invoke(nameof(CloseNotification), showingTime);
-        }
-
-        public void CloseNotification() {
-            panel.SetActive(false);
+        public void ShowNotification(bool isFound) {
+            if (isFound) {
+                panel.color = foundColor;
+            } else  {
+                panel.color = noFoundColor;
+            }
         }
     }
 }
-
-
-#if UNITY_EDITOR
-
-[CustomEditor(typeof(NotificationPopUp))]
-public class NotificationPopUpEditor: Editor
-{
-    public override void OnInspectorGUI()
-    {
-        NotificationPopUp instance = (NotificationPopUp)target;
-        base.OnInspectorGUI();
-
-        if (GUILayout.Button("Show Notification"))
-        {
-            instance.ShowNotification("Show Notification");
-        }
-    }
-}
-
-#endif

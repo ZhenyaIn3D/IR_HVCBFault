@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 using Zenject;
@@ -9,54 +10,50 @@ public class StepController : MonoBehaviour {
     public UnityEvent OnStepFirstStart;
     [SerializeField] private DataBaseSO scriptDB;
     
-    private int currentStep = 1;
+    private int currentStep = 0;
 
-#region Step 1
-
-    // step 1
-    public void StartScanning() {
-        currentStep = 1;
-        OnStepFirstStart?.Invoke();
-        targetObserver.StartScanning();
-        targetObserver.OnScanFound += OnScanFound;
-    }
-
-    public void OnScanFound() {
-        Debug.Log("OnScanFound");
-        ShowSecondStep();
-    }
-
-#endregion
- 
-
-#region Step 2
-
-    //step 2
-    public void ShowSecondStep() {
-        currentStep = 2;
+    private void OnEnable()
+    {
         mainMenuView.SetYesButton(YesCallback);
         mainMenuView.SetNoButton(NoCallback);
-        mainMenuView.SetQuestionText(scriptDB.steps[currentStep].question);
     }
 
+    public void ShowStep(int index) {
+        targetObserver.StartScanning(index);
+        currentStep = index;
+        mainMenuView.SetQuestionText(scriptDB.steps[currentStep].question);
+        mainMenuView.ChangeStep(currentStep);
+    }
+    
     public void YesCallback() {
-        Debug.Log("Press YES");
+        // end screen
+        mainMenuView.ShowEndScreen();
     }
 
     public void NoCallback() {
-        Debug.Log("Press NO");
+        NextStep();
     }
 
-#endregion
-    
-    
+    public void StartSteps() {
+        currentStep = 0;
+        mainMenuView.HideWelcomePanel();
+        ShowStep(currentStep);
+    }
     
     // For buttons
     public void NextStep() {
-        if (currentStep == 1) {
-            ShowSecondStep();
-        } else if (currentStep == 2) {
-            
+        if (currentStep < 13) {
+            currentStep++;    
+        } else {
+            mainMenuView.ShowEndScreen();
         }
+        ShowStep(currentStep);
     }
+    
+    public void RestartApplication() {
+        currentStep = 0;
+        mainMenuView.HideEndScreen();
+        mainMenuView.ShowWelcomePanel();
+    }
+ 
 } 
