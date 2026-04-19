@@ -24,6 +24,7 @@ public class UserInputView : MonoBehaviour
             case UserInputType.YesNo:
                 yesBtn.gameObject.SetActive(true);
                 noBtn.gameObject.SetActive(true);
+                continueBtn.gameObject.SetActive(false);
                 break;
             case UserInputType.Continue:
                 yesBtn.gameObject.SetActive(false);

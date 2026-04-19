@@ -57,7 +57,8 @@ public class StepController : MonoBehaviour {
     public void RestartApplication() {
         currentStep = 0;
         mainMenuView.HideEndScreen();
-        mainMenuView.ChangeStep(currentStep, scriptDB.steps[0].stepName, scriptDB.steps[0].infoPanelText);
+        mainMenuView.ResetButtons();
+        mainMenuView.ChangeStep(currentStep, scriptDB.steps[currentStep].stepName, scriptDB.steps[currentStep].infoPanelText);
         mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
         mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip);
         mainMenuView.ShowWelcomePanel();

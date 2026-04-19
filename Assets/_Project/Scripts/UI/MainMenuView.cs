@@ -41,7 +41,12 @@ public class MainMenuView : MonoBehaviour
     
     [SerializeField] private DataBaseSO scriptDB;
 
-    private void OnEnable() {
+    private void OnEnable()
+    {
+        ResetButtons();
+    }
+
+    public void ResetButtons() {
         for (var index = 0; index < scriptDB.steps.Count; index++) {
             var showIndex = index + 1;
             var stepCell = stepCells[index];
