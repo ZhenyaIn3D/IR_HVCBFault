@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: a99fa9ac0db559949955c9aa234d3d83
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6589640952358628479
+    second: Israel_Railways_Logo_2021_0
+  - first:
+      213: -2175805437636527341
+    second: Israel_Railways_Logo_2021_1
+  - first:
+      213: 1115928327998687262
+    second: Israel_Railways_Logo_2021_2
+  - first:
+      213: 709920132834844496
+    second: Israel_Railways_Logo_2021_3
+  - first:
+      213: -3755676078688168617
+    second: Israel_Railways_Logo_2021_4
+  - first:
+      213: 6636119639253005775
+    second: Israel_Railways_Logo_2021_5
+  - first:
+      213: -8579107831121454095
+    second: Israel_Railways_Logo_2021_6
+  - first:
+      213: -2449352102899823878
+    second: Israel_Railways_Logo_2021_7
+  - first:
+      213: 5322839669859061607
+    second: Israel_Railways_Logo_2021_8
+  - first:
+      213: -2110910076675354540
+    second: Israel_Railways_Logo_2021_9
+  - first:
+      213: -8854558403118761079
+    second: Israel_Railways_Logo_2021_10
+  - first:
+      213: 6641147799972516790
+    second: Israel_Railways_Logo_2021_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_0
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 214
+        width: 180
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ce3b2688b137b50800000000000000
+      internalID: 6589640952358628479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 214
+        width: 212
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bbf4d7b7cfdc1e0800000000000000
+      internalID: -2175805437636527341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_2
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 111
+        width: 212
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e184821e6e29c7f00800000000000000
+      internalID: 1115928327998687262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_3
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 155
+        width: 178
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05fd48879942ad900800000000000000
+      internalID: 709920132834844496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7551c5e318821ebc0800000000000000
+      internalID: -3755676078688168617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 78
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc53ba8f6ab381c50800000000000000
+      internalID: 6636119639253005775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 102
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbdb34b1e2e0f880800000000000000
+      internalID: -8579107831121454095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 26
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afaccc85d37220ed0800000000000000
+      internalID: -2449352102899823878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_8
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 0
+        width: 90
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f8e466a768ed940800000000000000
+      internalID: 5322839669859061607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_9
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45019f6287a84b2e0800000000000000
+      internalID: -2110910076675354540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_10
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 72
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bf72bbb0a4e1580800000000000000
+      internalID: -8854558403118761079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Israel_Railways_Logo_2021_11
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 80
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b39a3edcb81a2c50800000000000000
+      internalID: 6641147799972516790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Israel_Railways_Logo_2021_0: 6589640952358628479
+      Israel_Railways_Logo_2021_1: -2175805437636527341
+      Israel_Railways_Logo_2021_10: -8854558403118761079
+      Israel_Railways_Logo_2021_11: 6641147799972516790
+      Israel_Railways_Logo_2021_2: 1115928327998687262
+      Israel_Railways_Logo_2021_3: 709920132834844496
+      Israel_Railways_Logo_2021_4: -3755676078688168617
+      Israel_Railways_Logo_2021_5: 6636119639253005775
+      Israel_Railways_Logo_2021_6: -8579107831121454095
+      Israel_Railways_Logo_2021_7: -2449352102899823878
+      Israel_Railways_Logo_2021_8: 5322839669859061607
+      Israel_Railways_Logo_2021_9: -2110910076675354540
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
