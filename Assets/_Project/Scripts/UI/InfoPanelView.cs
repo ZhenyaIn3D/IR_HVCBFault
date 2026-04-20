@@ -95,6 +95,7 @@ public class InfoPanelView : MonoBehaviour
 
         if (videoClip == null && sprites.IsEmpty()) {
             extraInfoButton.gameObject.SetActive(false);  
+            ShowExtraInfoPanel(false);
         } else {
             extraInfoButton.gameObject.SetActive(true);
         }

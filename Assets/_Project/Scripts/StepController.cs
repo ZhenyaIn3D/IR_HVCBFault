@@ -43,6 +43,13 @@ public class StepController : MonoBehaviour {
         mainMenuView.HideWelcomePanel();
         ShowStep(currentStep);
     }
+
+    public void SelectStep(int index) {
+        currentStep = index - 1;
+        mainMenuView.ResetButtons();
+        
+        NextStep();
+    }
     
     // For buttons
     public void NextStep() {
