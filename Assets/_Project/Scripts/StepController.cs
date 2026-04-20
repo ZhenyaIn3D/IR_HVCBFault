@@ -26,7 +26,7 @@ public class StepController : MonoBehaviour {
         currentStep = index;
         mainMenuView.ChangeStep(currentStep, scriptDB.steps[index].stepName, scriptDB.steps[index].infoPanelText);
         mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
-        mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip);
+        mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip, scriptDB.steps[currentStep].infoSprites);
     }
     
     public void YesCallback() {
@@ -60,7 +60,7 @@ public class StepController : MonoBehaviour {
         mainMenuView.ResetButtons();
         mainMenuView.ChangeStep(currentStep, scriptDB.steps[currentStep].stepName, scriptDB.steps[currentStep].infoPanelText);
         mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
-        mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip);
+        mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip, scriptDB.steps[currentStep].infoSprites);
         mainMenuView.ShowWelcomePanel();
     }
 

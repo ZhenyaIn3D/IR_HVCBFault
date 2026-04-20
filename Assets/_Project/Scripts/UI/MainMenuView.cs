@@ -129,6 +129,7 @@ public class MainMenuView : MonoBehaviour
     public void ShowWelcomePanel() {
         WelcomePanel.SetActive(true);
         aboutAppPanel.SetActive(true);
+        infoPanelView.ShowExtraInfoPanel(false);
     }
 
     public void HideWelcomePanel() {
@@ -136,7 +137,7 @@ public class MainMenuView : MonoBehaviour
         
     }
 
-    public void ChangeInfoPanelViewContent(string text, VideoClip videoClip, Image image = null) {
+    public void ChangeInfoPanelViewContent(string text, VideoClip videoClip, Sprite[] image) {
         infoPanelView.ChnageInfoPanelContent(text, videoClip, image);
     }
 }
