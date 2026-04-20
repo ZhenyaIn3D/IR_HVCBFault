@@ -19,7 +19,7 @@ MonoBehaviour:
       \u05DC\u05D1\u05E6\u05E2 \u05D1\u05D3\u05D9\u05E7\u05D4 \u05D1UTR?"
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05D4 \u05D1UTR"
     infoVideoClip: {fileID: 32900000, guid: e3bf9284b87dc4fbe81280e684f20a84, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites: []
     userInputType: 0
   - infoPanelText: "\u2022 \u05D2\u05E9\u05D5 \u05DC\u05D0\u05E8\u05D5\u05DF UTR
       \u05D5\u05D1\u05D3\u05E7\u05D5 \u05D0\u05EA \u05EA\u05E7\u05D9\u05E0\u05D5\u05EA
@@ -33,7 +33,7 @@ MonoBehaviour:
     stepName: " \u05D1\u05D3\u05D9\u05E7\u05EA \u05E8\u05D9\u05E0\u05D2 \u05D1\u05D0\u05E8\u05D5\u05DF
       UTR"
     infoVideoClip: {fileID: 32900000, guid: aea358e5aa9de459fb889d2c5b6b0ae0, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites: []
     userInputType: 1
   - infoPanelText: "\u2022 \u05DC\u05D7\u05E6\u05D5 \u05E2\u05DC \u05DC\u05E9\u05D5\u05E0\u05D9\u05EA
       MOCSYS \u05D5\u05D6\u05D4\u05D5 \u05D0\u05EA \u05D4\u05E8\u05DB\u05D9\u05D1
@@ -48,7 +48,9 @@ MonoBehaviour:
       \u05DC\u05E9\u05DC\u05D1 \u05D4\u05D1\u05D0 "
     stepName: "\u05D0\u05EA\u05D7\u05D5\u05DC \u05D1\u05E7\u05E8 \u05E4\u05E2\u05D9\u05DC"
     infoVideoClip: {fileID: 32900000, guid: 7ee4be861c8b3414db2ae92281556be5, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: -2460267964475982161, guid: 71fc76e789dd2c143a0ccb4d2509ad0b, type: 3}
+    - {fileID: -5519168480038503383, guid: 2eb061f36c9033a479a349d1d85ac936, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022 \u05E6\u05E8\u05D5 \u05E7\u05E9\u05E8 \u05E2\u05DD \u05DE\u05E8\u05DB\u05D6
       \u05D4\u05D1\u05E7\u05E8\u05D4 \u05D5\u05D1\u05E7\u05E9\u05D5 \u05E9\u05DC\u05D9\u05D7\u05EA
@@ -62,7 +64,7 @@ MonoBehaviour:
       \u05DE\u05E4\u05E2\u05D9\u05DC ADACS."
     stepName: "\u05E9\u05DC\u05D9\u05D7\u05EA \u05E4\u05E7\u05D5\u05D3\u05D4 \u05DE\u05E8\u05D7\u05D5\u05E7"
     infoVideoClip: {fileID: 32900000, guid: 8cb94ab2a317946f6ac5a7a5c59f04a8, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites: []
     userInputType: 1
   - infoPanelText: "\u2022 \u05E9\u05DC\u05D7\u05D5 \u05E4\u05E7\u05D5\u05D3\u05D4
       \u05DE\u05E7\u05D5\u05DE\u05D9\u05EA \u05D3\u05E8\u05DA \u05DC\u05D5\u05D7
@@ -76,7 +78,7 @@ MonoBehaviour:
     stepName: "\u05E9\u05DC\u05D9\u05D7\u05EA \u05E4\u05E7\u05D5\u05D3\u05D4 \u05DE\u05E7\u05D5\u05DE\u05D9\u05EA
       \u05DE\u05DC\u05D5\u05D7 POL"
     infoVideoClip: {fileID: 32900000, guid: f51a1e0b4b2534c3b85cb068c3ca6001, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites: []
     userInputType: 1
   - infoPanelText: "\u2022  \u05E6\u05E8\u05D5 \u05E7\u05E9\u05E8 \u05E2\u05DD \u05DE\u05E8\u05DB\u05D6
       \u05D4\u05D1\u05E7\u05E8\u05D4 \u05DC\u05E9\u05DC\u05D9\u05D7\u05EA \u05E4\u05E7\u05D5\u05D3\u05D4
@@ -96,7 +98,8 @@ MonoBehaviour:
       \u05D0\u05D5 \u05D1\u05DB\u05D1\u05DC \u05DB\u05D5\u05D7. "
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05DE\u05D2\u05E2\u05DF 3MK"
     infoVideoClip: {fileID: 32900000, guid: c387ea604d96e426cb719bce9ec8ce70, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: 2444749418960007564, guid: 8f24a545c6187e84eb7d1df1c70e3b8c, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022  \u05D2\u05E9\u05D5 \u05DC\u05D0\u05E8\u05D5\u05DF MCU
       \u05D5\u05E6\u05E8\u05D5 \u05E7\u05E9\u05E8 \u05E2\u05DD \u05DE\u05E4\u05E2\u05D9\u05DC
@@ -111,7 +114,7 @@ MonoBehaviour:
       \u05DE\u05E0\u05D5\u05E2.   "
     stepName: "\u05E4\u05EA\u05D9\u05D7\u05EA \u05D0\u05E8\u05D5\u05DF UCM"
     infoVideoClip: {fileID: 32900000, guid: f51a1e0b4b2534c3b85cb068c3ca6001, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites: []
     userInputType: 1
   - infoPanelText: "\u2022  \u05D5\u05D3\u05D0\u05D5 \u05DE\u05EA\u05D2 2Q \u05DE\u05D5\u05E8\u05DD
       \u05D5\u05D1\u05D3\u05E7\u05D5 \u05D0\u05EA \u05D4\u05D7\u05D9\u05D5\u05D5\u05D9
@@ -124,7 +127,9 @@ MonoBehaviour:
       \u05D4\u05D2\u05E0\u05EA \u05DE\u05E0\u05D5\u05E2."
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05D1\u05E7\u05E8 KCARTC "
     infoVideoClip: {fileID: 32900000, guid: bc52de5308f2842e4afa83a36d1e344e, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: -2714630076571543917, guid: d6e7d94937042a8458cfd82e3e47f1d3, type: 3}
+    - {fileID: -8657562211282764756, guid: b9f9f73c884f20640b77dd1b251fe22c, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022  \u05D1\u05D3\u05E7\u05D5 \u05E1\u05D9\u05D1 \u05D0\u05D5\u05E4\u05D8\u05D9.
       \\n\u2022 \u05E1\u05D9\u05D1 \u05D0\u05D5\u05E4\u05D8\u05D9 \u05E9\u05DC\u05DD
@@ -135,7 +140,8 @@ MonoBehaviour:
       \u05E1\u05D9\u05D1 \u05D0\u05D5\u05E4\u05D8\u05D9."
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05E1\u05D9\u05D1 \u05D0\u05D5\u05E4\u05D8\u05D9"
     infoVideoClip: {fileID: 32900000, guid: 0e18b7875709c40ceb2ebaf4ddf6035c, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: -404841963309373245, guid: 0b1f54d8383e6e141b82625ded6bef3b, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022  \u05D1\u05D3\u05E7\u05D5 \u05D0\u05EA \u05DE\u05E6\u05D1
       \u05D4\u05D2\u05E0\u05EA \u05D4\u05DE\u05E0\u05D5\u05E2 1Q (\u05DC\u05D7\u05E6\u05DF
@@ -148,7 +154,8 @@ MonoBehaviour:
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05D4\u05D2\u05E0\u05EA \u05DE\u05E0\u05D5\u05E2
       1Q"
     infoVideoClip: {fileID: 32900000, guid: 5af2157570bbd4d848610fb3fc9b1548, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: 3803277811884836060, guid: ef72fc7974d17d64ca6735e6de9d43a8, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022  \u05D1\u05D3\u05E7\u05D5 \u05DE\u05EA\u05D7\u05D9\u05DD
       \u05D1\u05D2\u05D9\u05D3\u05D9 \u05EA\u05E7\u05E9\u05D5\u05E8\u05EA. \\n\u2022
@@ -161,7 +168,8 @@ MonoBehaviour:
       \u2013 \u05D1\u05D3\u05D9\u05E7\u05EA \u05DE\u05D2\u05E2\u05D9\u05DD."
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05DE\u05EA\u05D7\u05D9\u05DD"
     infoVideoClip: {fileID: 32900000, guid: f51a1e0b4b2534c3b85cb068c3ca6001, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: 5123744300543678374, guid: 98cdd1477fc71b24ea1263db8a40df14, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022  \u05D1\u05E6\u05E2\u05D5 \u05D1\u05D3\u05D9\u05E7\u05EA
       \u05DE\u05D2\u05E2\u05D9\u05DD \u05D5\u05D7\u05D9\u05D6\u05D5\u05E7 \u05D1\u05E8\u05D2\u05D9\u05DD.
@@ -170,7 +178,8 @@ MonoBehaviour:
       \\n\u2022 \u05D4\u05DE\u05E9\u05DA \u05DC\u05E9\u05DC\u05D1 \u05D4\u05D1\u05D0."
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05DE\u05D2\u05E2\u05D9\u05DD"
     infoVideoClip: {fileID: 32900000, guid: e3bf9284b87dc4fbe81280e684f20a84, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: 5633688553053812709, guid: 587bc82caf9d93b4da3350db9613d860, type: 3}
     userInputType: 1
   - infoPanelText: "\u2022  \u05D1\u05E6\u05E2\u05D5 \u05D1\u05D3\u05D9\u05E7\u05D4
       \u05DE\u05DB\u05D0\u05E0\u05D9\u05EA \u05E9\u05DC \u05D4\u05DE\u05E0\u05D5\u05E2
@@ -187,5 +196,7 @@ MonoBehaviour:
     stepName: "\u05D1\u05D3\u05D9\u05E7\u05EA \u05DE\u05DB\u05D0\u05E0\u05D9\u05EA
       \u05E9\u05DC \u05D4\u05DE\u05E0\u05D5\u05E2"
     infoVideoClip: {fileID: 32900000, guid: 5d29d549a880b4ceda7f40fc5141b137, type: 3}
-    infoSprite: {fileID: 0}
+    infoSprites:
+    - {fileID: 7584443215680663230, guid: b90d0186a0758c74a8521a09d0469a6d, type: 3}
+    - {fileID: 2436349829779187340, guid: 82122235566708f46b4965bc6349c5ab, type: 3}
     userInputType: 1

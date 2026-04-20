@@ -9,7 +9,7 @@ public class Step {
     public string infoPanelText;
     public string stepName;
     public VideoClip infoVideoClip;
-    public Sprite infoSprite;
+    public Sprite[] infoSprites;
     public UserInputType userInputType;
     public UnityAction OnYesClicked;
     public UnityAction OnNoClicked;
