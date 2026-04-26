@@ -99,7 +99,7 @@
             android:exported="true"
             android:hardwareAccelerated="false"
             android:launchMode="singleTask"
-            android:resizeableActivity="true"
+            android:resizeableActivity="false"
             android:screenOrientation="landscape"
             android:theme="@style/BaseUnityGameActivityTheme" >
             <intent-filter>
@@ -115,18 +115,12 @@
                 android:name="android.app.lib_name"
                 android:value="game" />
             <meta-data
-                android:name="WindowManagerPreference:FreeformWindowSize"
-                android:value="@string/FreeformWindowSize_maximize" />
-            <meta-data
-                android:name="WindowManagerPreference:FreeformWindowOrientation"
-                android:value="@string/FreeformWindowOrientation_landscape" />
-            <meta-data
                 android:name="notch_support"
                 android:value="true" />
 
             <layout
-                android:minHeight="300px"
-                android:minWidth="400px" />
+                android:minHeight="1080px"
+                android:minWidth="1920px" />
         </activity>
 
         <meta-data
