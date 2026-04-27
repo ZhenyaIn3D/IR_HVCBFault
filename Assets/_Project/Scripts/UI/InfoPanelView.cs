@@ -131,7 +131,7 @@ public class InfoPanelView : MonoBehaviour
             extraInfoButton.gameObject.SetActive(false);  
             ShowExtraInfoPanel(false);
         } else {
-            extraInfoButton.gameObject.SetActive(true);
+            extraInfoButton.gameObject.SetActive(false);
         }
         
         textInfo.text = text;

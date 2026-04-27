@@ -21,17 +21,19 @@ MonoBehaviour:
     infoVideoClip: {fileID: 0}
     infoSprites: []
     userInputType: 0
-  - infoPanelText: "<link=\"my_button_1\"><sprite name=\"X Button\"></link>\u2022
-      \u05D2\u05E9\u05D5 \u05DC\u05D0\u05E8\u05D5\u05DF UTR \u05D5\u05D1\u05D3\u05E7\u05D5
-      \u05D0\u05EA \u05EA\u05E7\u05D9\u05E0\u05D5\u05EA \u05D4\u05E8\u05D9\u05E0\u05D2
-      \u05D1\u05DE\u05E1\u05DA. \\n\\n<link=\"my_button_2\"><color=#0000FF><u>+</u></color></link>\u2022
-      \u05D4\u05E8\u05D9\u05E0\u05D2 \u05EA\u05E7\u05D9\u05DF: \u05D4\u05DE\u05E9\u05DA
-      \u05DC\u05E9\u05DC\u05D1 \u05D4\u05D1\u05D0 \u2013 \u05D6\u05D9\u05D4\u05D5\u05D9
-      \u05D5\u05D0\u05EA\u05D7\u05D5\u05DC \u05D1\u05E7\u05E8 \u05E4\u05E2\u05D9\u05DC.
-      \\n\\n<link=\"my_button_3\"><color=#0000FF><u>+</u></color></link>\u2022 \u05D4\u05E8\u05D9\u05E0\u05D2
+  - infoPanelText: "<link=\"my_button_1\"><color=#00000000>M</color><rotate=45><sprite
+      name=\"X Button\"></rotate><color=#00000000>M</color></link>\u2022 \u05D2\u05E9\u05D5
+      \u05DC\u05D0\u05E8\u05D5\u05DF UTR \u05D5\u05D1\u05D3\u05E7\u05D5 \u05D0\u05EA
+      \u05EA\u05E7\u05D9\u05E0\u05D5\u05EA \u05D4\u05E8\u05D9\u05E0\u05D2 \u05D1\u05DE\u05E1\u05DA.
+      \\n\\n<link=\"my_button_2\"><color=#00000000>M</color><rotate=45><sprite name=\"X
+      Button\"></rotate><color=#00000000>M</color></link>\u2022 \u05D4\u05E8\u05D9\u05E0\u05D2
+      \u05EA\u05E7\u05D9\u05DF: \u05D4\u05DE\u05E9\u05DA \u05DC\u05E9\u05DC\u05D1
+      \u05D4\u05D1\u05D0 \u2013 \u05D6\u05D9\u05D4\u05D5\u05D9 \u05D5\u05D0\u05EA\u05D7\u05D5\u05DC
+      \u05D1\u05E7\u05E8 \u05E4\u05E2\u05D9\u05DC. \\n\\n<link=\"my_button_3\"><color=#00000000>M</color><rotate=45><sprite
+      name=\"X Button\"></rotate><color=#00000000>M</color></link>\u2022 \u05D4\u05E8\u05D9\u05E0\u05D2
       \u05DC\u05D0 \u05EA\u05E7\u05D9\u05DF: <link=\"my_button_0\"><color=#0000FF><u>\u05DC\u05D7\u05E5
       \u05DB\u05D0\u05DF</u></color></link> \u05DC\u05DC\u05DE\u05D9\u05D3\u05D4
-      \u05E2\u05DC \u05E1\u05D9\u05D1\u05D5\u05EA \u05D0\u05E4\u05E9\u05E8\u05D9\u05D5\u05EA. "
+      \u05E2\u05DC \u05E1\u05D9\u05D1\u05D5\u05EA \u05D0\u05E4\u05E9\u05E8\u05D9\u05D5\u05EA."
     stepName: " \u05D1\u05D3\u05D9\u05E7\u05EA \u05E8\u05D9\u05E0\u05D2 \u05D1\u05D0\u05E8\u05D5\u05DF
       UTR"
     infoVideoClip: {fileID: 32900000, guid: aea358e5aa9de459fb889d2c5b6b0ae0, type: 3}
