@@ -10,7 +10,7 @@ public class InfoPanelView : MonoBehaviour
     [SerializeField] private GameObject mainPanel;
     
     [SerializeField] private Button extraInfoButton;
-    [SerializeField] private GameObject extraInfoPanel;
+    [SerializeField] public GameObject extraInfoPanel;
     [SerializeField] private VideoPlayer videoPlayer;
 
     [SerializeField] private GameObject videoInfo;
@@ -53,6 +53,40 @@ public class InfoPanelView : MonoBehaviour
         {
             isExtraButtonClicked = false;
             extraInfoButton.transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+    }
+
+    public void ChnageExtraInfoPanel(VideoClip videoClip, Sprite[] sprites)
+    {
+        if (videoClip == null) {
+            videoInfo.SetActive(false);
+        }
+        
+        if (sprites.IsEmpty()) {
+            foreach (var img in imagesInfo) {
+                img.gameObject.SetActive(false);
+            }
+        }
+        
+        if (sprites.Length > 0)
+        {
+            if (sprites[0] != null)
+            {
+                imagesInfo[0].sprite = sprites[0];
+                imagesInfo[0].gameObject.SetActive(true);
+            }
+
+            if (sprites.Length > 1)
+            {
+                if (sprites[1] != null) {
+                    imagesInfo[1].sprite = sprites[1];
+                    imagesInfo[1].gameObject.SetActive(true);
+                }
+            }
+            else {
+                imagesInfo[1].gameObject.SetActive(false);
+            }
+            
         }
     }
 

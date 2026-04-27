@@ -15,8 +15,14 @@ public class StepController : MonoBehaviour {
     private void OnEnable() {
         mainMenuView.SetContinueButton(NextStep);
         
-        scriptDB.steps[0].OnYesClicked += StepZeroClickedYes;
-        scriptDB.steps[0].OnNoClicked += NextStep;
+        scriptDB.steps[0].OnYesClicked += NextStep;
+        scriptDB.steps[0].OnNoClicked += StepZeroClickedYes;
+        
+        scriptDB.steps[6].OnYesClicked += StepSevenClickedYes;
+        scriptDB.steps[6].OnNoClicked += NextStep;
+        
+        scriptDB.steps[7].OnYesClicked += StepSevenClickedYes;
+        scriptDB.steps[7].OnNoClicked += NextStep;
     }
 
     public void ShowStep(int index) {
@@ -75,6 +81,10 @@ public class StepController : MonoBehaviour {
         currentStep = 5;
         NextStep();
     }
-    
- 
+
+    private void StepSevenClickedYes()
+    {
+        currentStep = 8;
+        NextStep();
+    }
 } 

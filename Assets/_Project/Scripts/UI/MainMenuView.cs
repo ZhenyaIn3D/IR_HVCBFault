@@ -32,6 +32,7 @@ public class MainMenuView : MonoBehaviour
     
     [SerializeField] private GameObject EndScreen;
     [SerializeField] private GameObject WelcomePanel;
+    [SerializeField] private GameObject FirstStepImage;
     
     public Color defaultStepCellColor;
     public Color setStepCellColor;
@@ -95,7 +96,12 @@ public class MainMenuView : MonoBehaviour
     {
         var showIndex = index + 1;
         stepText.text = (showIndex >= 10 ? "" : "0") + showIndex.ToString();
-        
+
+        if (index == 0) {
+            FirstStepImage.SetActive(true);
+        } else {
+            FirstStepImage.SetActive(false);
+        }
         
         string ltrMark = "\u200E"; 
 
