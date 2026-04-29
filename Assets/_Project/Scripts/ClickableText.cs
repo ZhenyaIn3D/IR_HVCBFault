@@ -19,30 +19,54 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
     {
         // Проверяем, попал ли клик в зону ссылки
         int linkIndex = TMP_TextUtilities.FindIntersectingLink(_textMeshPro, eventData.position, null);
-        
+
         if (linkIndex != -1)
         {
             TMP_LinkInfo linkInfo = _textMeshPro.textInfo.linkInfo[linkIndex];
-            
+
             Vector3 targetPos = GetLinkCenterPosition(linkIndex);
-            
+
             // Получаем ID из тега <link="ID">
             string linkId = linkInfo.GetLinkID();
-            
+
             Debug.Log($"Нажата кнопка с ID: {linkId}");
-            
-            if (linkId == "my_button_0") {
-                if (additionalText.gameObject.activeSelf) {
+
+            // show lahatc dan info
+            if (linkId == "my_button_0")
+            {
+                if (additionalText.gameObject.activeSelf)
+                {
                     additionalText.gameObject.SetActive(false);
-                } else {
-                    additionalText.gameObject.SetActive(true);
-                    additionalText.text = "קיימת בעיה בטבעת תקשורת.\n קו אדום בין מנתקים עלול להצביע על פגיעה בכבילה ביניהם.\n פורט אדום עלול להצביע על נפילת תקשורת על ארון כוח לגיבוי A או B.";
                 }
-            } else {
+                else
+                {
+                    additionalText.gameObject.SetActive(true);
+                    additionalText.text =
+                        "קיימת בעיה בטבעת תקשורת. קו אדום בין מנתקים עלול להצביע על פגיעה בכבילה ביניהם.\n פורט אדום עלול להצביע על נפילת תקשורת על ארון כוח לגיבוי A או B.";
+                }
+            }
+            else
+            {
                 additionalText.gameObject.SetActive(false);
             }
 
-            if (linkId == "my_button_1") {
+
+            // plus buttons
+            if (linkId == "my_button_step_1")
+            {
+                if (infoPanelView.extraInfoPanel.activeSelf && _lastButtonIndex == 0) {
+                    infoPanelView.ShowExtraInfoPanel(false);
+                }
+                else {
+                    Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
+                    infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
+                    
+                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    infoPanelView.ShowExtraInfoPanel(true);
+                }
+
+                _lastButtonIndex = 0;
+            } else if (linkId == "my_button_1") {
                 if (infoPanelView.extraInfoPanel.activeSelf && _lastButtonIndex == 1) {
                     infoPanelView.ShowExtraInfoPanel(false);
                 }
@@ -85,6 +109,33 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                 }
 
                 _lastButtonIndex = 3;
+            } else if (linkId == "my_button_step_5") {
+                if (infoPanelView.extraInfoPanel.activeSelf && _lastButtonIndex == 4) {
+                    infoPanelView.ShowExtraInfoPanel(false);
+                }
+                else {
+                    Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
+                    infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
+
+                    
+                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    infoPanelView.ShowExtraInfoPanel(true);
+                }
+                
+                _lastButtonIndex = 4;
+            } else if (linkId == "my_button_step_13") {
+                if (infoPanelView.extraInfoPanel.activeSelf && _lastButtonIndex == 5) {
+                    infoPanelView.ShowExtraInfoPanel(false);
+                } else {
+                    Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
+                    infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
+
+
+                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    infoPanelView.ShowExtraInfoPanel(true);
+                }
+
+                _lastButtonIndex = 5;
             } else {
                 infoPanelView.ShowExtraInfoPanel(false);
             }
