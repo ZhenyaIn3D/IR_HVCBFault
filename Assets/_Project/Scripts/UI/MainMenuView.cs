@@ -4,7 +4,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 using UnityEngine.Video;
+using Button = UnityEngine.UI.Button;
 
 public class MainMenuView : MonoBehaviour
 {
@@ -41,6 +43,8 @@ public class MainMenuView : MonoBehaviour
     public AudioSource audioSource;
     
     [SerializeField] private DataBaseSO scriptDB;
+    
+    [SerializeField] private ScrollRect scrollView;
 
     private void OnEnable()
     {
@@ -118,6 +122,34 @@ public class MainMenuView : MonoBehaviour
         }
 
         stepCells[index].stepNumberText.color = setStepCellColor;
+        ScrollToStep(index);
+    }
+    
+    private void ScrollToStep(int index)
+    {
+        if (scrollView == null || stepCells == null || stepCells.Length == 0) return;
+
+        RectTransform contentPanel = scrollView.content;
+        RectTransform targetCell = stepCells[index].GetComponent<RectTransform>();
+        RectTransform viewport = scrollView.viewport;
+
+        // 1. Считаем общую доступную высоту для прокрутки
+        float contentHeight = contentPanel.rect.height - viewport.rect.height;
+        if (contentHeight <= 0) return;
+
+        // 2. Считаем позицию центра выбранной ячейки относительно верха контента
+        // Мы берем её anchoredPosition.y и прибавляем смещение, чтобы она была в центре вьюпорта
+        float targetY = -targetCell.anchoredPosition.y; 
+    
+        // Вычитаем половину высоты вьюпорта. 
+        // Это заставит скролл крутить так, чтобы ячейка была в середине, а не сверху.
+        float scrollPosition = targetY - (viewport.rect.height / 2f);
+
+        // 3. Переводим в нормализованный вид (0..1)
+        float normalizedPosition = scrollPosition / contentHeight;
+
+        // 4. Применяем Clamp, чтобы не вылететь за границы, и инвертируем (1 - pos)
+        scrollView.verticalNormalizedPosition = Mathf.Clamp01(1f - normalizedPosition);
     }
     
     public void ShowEndScreen() {
