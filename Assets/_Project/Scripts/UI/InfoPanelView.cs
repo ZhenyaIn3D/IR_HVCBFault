@@ -11,6 +11,7 @@ public class InfoPanelView : MonoBehaviour
     
     [SerializeField] private Button extraInfoButton;
     [SerializeField] public GameObject extraInfoPanel;
+    [SerializeField] private GameObject extraLahatcInfoText;
     [SerializeField] private VideoPlayer videoPlayer;
 
     [SerializeField] private GameObject videoInfo;
@@ -130,8 +131,11 @@ public class InfoPanelView : MonoBehaviour
         if (videoClip == null && sprites.IsEmpty()) {
             extraInfoButton.gameObject.SetActive(false);  
             ShowExtraInfoPanel(false);
+            extraLahatcInfoText.SetActive(false);
         } else {
             extraInfoButton.gameObject.SetActive(false);
+            ShowExtraInfoPanel(false);
+            extraLahatcInfoText.SetActive(false);
         }
         
         textInfo.text = text;

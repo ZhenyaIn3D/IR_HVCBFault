@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -61,7 +62,7 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
                     
-                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    infoPanelView.ChnageExtraInfoPanel(null, _dataBase.steps[0].infoSprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
 
@@ -74,8 +75,9 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
-                    
-                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    var sprites = new Sprite[1];
+                    sprites[0] = _dataBase.steps[1].infoSprites[0];
+                    infoPanelView.ChnageExtraInfoPanel(null, sprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
 
@@ -89,8 +91,9 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
-                    
-                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    var sprites = new Sprite[1];
+                    sprites[0] = _dataBase.steps[1].infoSprites[1];
+                    infoPanelView.ChnageExtraInfoPanel(null, sprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
 
@@ -118,7 +121,7 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
                     
-                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    infoPanelView.ChnageExtraInfoPanel(null, _dataBase.steps[4].infoSprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
                 
@@ -131,7 +134,7 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
 
-                    // infoPanelView.ChnageExtraInfoPanel(null, null);
+                    infoPanelView.ChnageExtraInfoPanel(_dataBase.steps[12].infoVideoClip, Array.Empty<Sprite>());
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
 
