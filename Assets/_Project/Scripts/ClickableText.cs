@@ -12,6 +12,8 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
     
     [SerializeField] private DataBaseSO _dataBase;
 
+    [SerializeField] private GameObject LeverObject;
+
     void Awake() => _textMeshPro = GetComponent<TextMeshProUGUI>();
 
     
@@ -75,8 +77,9 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
-                    var sprites = new Sprite[1];
+                    var sprites = new Sprite[2];
                     sprites[0] = _dataBase.steps[1].infoSprites[0];
+                    sprites[1] = _dataBase.steps[1].infoSprites[1];
                     infoPanelView.ChnageExtraInfoPanel(null, sprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
@@ -92,7 +95,7 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
                     var sprites = new Sprite[1];
-                    sprites[0] = _dataBase.steps[1].infoSprites[1];
+                    sprites[0] = _dataBase.steps[1].infoSprites[2];
                     infoPanelView.ChnageExtraInfoPanel(null, sprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
@@ -129,13 +132,14 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
             } else if (linkId == "my_button_step_13") {
                 if (infoPanelView.extraInfoPanel.activeSelf && _lastButtonIndex == 5) {
                     infoPanelView.ShowExtraInfoPanel(false);
+                    LeverObject.SetActive(false);
                 } else {
                     Vector3 panelPos = infoPanelView.extraInfoPanel.transform.position;
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
-
-                    infoPanelView.ChnageExtraInfoPanel(_dataBase.steps[12].infoVideoClip, Array.Empty<Sprite>());
-                    infoPanelView.ShowExtraInfoPanel(true);
+                    LeverObject.SetActive(true);
+                    // infoPanelView.ChnageExtraInfoPanel(_dataBase.steps[12].infoVideoClip, Array.Empty<Sprite>());
+                    // infoPanelView.ShowExtraInfoPanel(true);
                 }
 
                 _lastButtonIndex = 5;
