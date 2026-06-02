@@ -52,8 +52,7 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
             {
                 additionalText.gameObject.SetActive(false);
             }
-
-
+            
             // plus buttons
             if (linkId == "my_button_step_1")
             {
@@ -131,7 +130,7 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                 
                 _lastButtonIndex = 4;
             } else if (linkId == "my_button_step_13") {
-                if (infoPanelView.extraInfoPanel.activeSelf && _lastButtonIndex == 5) {
+                if (LeverObject.activeSelf && _lastButtonIndex == 5) {
                     infoPanelView.ShowExtraInfoPanel(false);
                     LeverObject.SetActive(false);
                 } else {
