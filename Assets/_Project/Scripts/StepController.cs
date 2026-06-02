@@ -1,4 +1,5 @@
 using System;
+using _Project.Scripts.UI;
 using UnityEngine;
 using UnityEngine.Events;
 using Zenject;
@@ -28,7 +29,12 @@ public class StepController : MonoBehaviour {
     public void ShowStep(int index) {
         mainMenuView.SetYesButton(scriptDB.steps[index].OnYesClicked);
         mainMenuView.SetNoButton(scriptDB.steps[index].OnNoClicked);
-        targetObserver.StartScanning(index);
+        if (index == 0) {
+            NotificationPopUp.instance.ResetPanel();
+        }else {
+            targetObserver.StartScanning(index);
+        }
+        
         currentStep = index;
         mainMenuView.ChangeStep(currentStep, scriptDB.steps[index].stepName, scriptDB.steps[index].infoPanelText);
         mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
@@ -75,6 +81,7 @@ public class StepController : MonoBehaviour {
         mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
         mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip, scriptDB.steps[currentStep].infoSprites);
         mainMenuView.ShowWelcomePanel();
+        NotificationPopUp.instance.ResetPanel();
     }
 
     private void StepZeroClickedYes() {

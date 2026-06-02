@@ -17,10 +17,14 @@ namespace _Project.Scripts.UI
         [SerializeField] private Color noFoundColor;
         [SerializeField] private Color foundColor;
 
+
+        private Color panelBaseColor;
         private void Awake() {
             if (instance == null) {
                 instance = this;
             }
+            
+            panelBaseColor = panel.color;
         }
         
         public void ShowNotification(bool isFound) {
@@ -29,6 +33,10 @@ namespace _Project.Scripts.UI
             } else  {
                 panel.color = noFoundColor;
             }
+        }
+        
+        public void ResetPanel() {
+            panel.color = panelBaseColor;
         }
     }
 }

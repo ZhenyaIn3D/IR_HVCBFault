@@ -31,7 +31,7 @@ public class ScanController : MonoBehaviour
             isScanning = true;
         }
     }
-
+    
     
     public void ScanFound() {
         OnScanFound?.Invoke();

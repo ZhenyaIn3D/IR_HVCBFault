@@ -124,7 +124,8 @@ public class ClickableText : MonoBehaviour, IPointerClickHandler
                     infoPanelView.extraInfoPanel.transform.position = new Vector3(panelPos.x, targetPos.y, panelPos.z);
 
                     
-                    infoPanelView.ChnageExtraInfoPanel(null, _dataBase.steps[4].infoSprites);
+                    var sprites = Array.Empty<Sprite>();
+                    infoPanelView.ChnageExtraInfoPanel(_dataBase.steps[4].infoVideoClip, sprites);
                     infoPanelView.ShowExtraInfoPanel(true);
                 }
                 
