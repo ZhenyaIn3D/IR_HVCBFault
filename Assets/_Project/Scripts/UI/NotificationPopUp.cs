@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using _Project.Scripts.UI;
 using TMPro;
 using UnityEditor;
@@ -17,7 +18,12 @@ namespace _Project.Scripts.UI
         [SerializeField] private Color noFoundColor;
         [SerializeField] private Color foundColor;
 
+        [SerializeField] private GameObject arPopUp;
+        [SerializeField] private TextMeshProUGUI arText;
+        [SerializeField] private float delayBetweenLetters = 0.05f; // Скорость появления букв
 
+        private string fullText = "סרוק את הרכיב";
+        
         private Color panelBaseColor;
         private void Awake() {
             if (instance == null) {
@@ -25,6 +31,18 @@ namespace _Project.Scripts.UI
             }
             
             panelBaseColor = panel.color;
+        }
+
+        public void ShowStartScaningNotification(bool isStart) {
+            if (isStart) {
+                arPopUp.SetActive(true);
+                StopAllCoroutines();
+                StartCoroutine(ShowArTextCoroutine());
+            }
+            else {
+                arPopUp.SetActive(false);
+                StopAllCoroutines();
+            }
         }
         
         public void ShowNotification(bool isFound) {
@@ -38,5 +56,18 @@ namespace _Project.Scripts.UI
         public void ResetPanel() {
             panel.color = panelBaseColor;
         }
+
+        IEnumerator ShowArTextCoroutine() 
+        {
+            arText.text = ""; // Очищаем текст перед стартом
+
+            // Цикл идет по каждой букве строки
+            foreach (char letter in fullText)
+            {
+                arText.text += letter; // Добавляем по одной букве
+                yield return new WaitForSeconds(delayBetweenLetters); // Ждем указанное время
+            }
+        }
+        
     }
 }

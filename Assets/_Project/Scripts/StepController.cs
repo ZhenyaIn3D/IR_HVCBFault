@@ -24,6 +24,9 @@ public class StepController : MonoBehaviour {
         
         scriptDB.steps[7].OnYesClicked += StepSevenClickedYes;
         scriptDB.steps[7].OnNoClicked += NextStep;
+
+        scriptDB.steps[10].OnYesClicked += StepElevenClickedYes;
+        scriptDB.steps[10].OnNoClicked += NextStep;
     }
 
     public void ShowStep(int index) {
@@ -92,6 +95,12 @@ public class StepController : MonoBehaviour {
     private void StepSevenClickedYes()
     {
         currentStep = 8;
+        NextStep();
+    }
+    
+    private void StepElevenClickedYes()
+    {
+        currentStep = 11;
         NextStep();
     }
 } 

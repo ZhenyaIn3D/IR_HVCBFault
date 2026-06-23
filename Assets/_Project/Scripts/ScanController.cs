@@ -14,9 +14,6 @@ public class ScanController : MonoBehaviour
     public Action OnScanFound;
     public Action OnScanLost;
     
-    // Вызовите эту функцию кнопкой "Начать"
-    
-    
     private ObserverBehaviour currentTargetObserver;
     public void StartScanning(int index) {
         if (currentTargetObserver != null) {
@@ -29,6 +26,7 @@ public class ScanController : MonoBehaviour
             currentTargetObserver.gameObject.SetActive(true);
             currentTargetObserver.enabled = true; // Включаем компонент Vuforia
             isScanning = true;
+            NotificationPopUp.instance.ShowStartScaningNotification(true);
         }
     }
     
@@ -36,6 +34,7 @@ public class ScanController : MonoBehaviour
     public void ScanFound() {
         OnScanFound?.Invoke();
         NotificationPopUp.instance.ShowNotification(true);
+        NotificationPopUp.instance.ShowStartScaningNotification(false);
     }
 
     public void ScanLost() {
