@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using _Project.Scripts.UI;
 using UnityEngine;
 using UnityEngine.Events;
@@ -10,10 +11,12 @@ public class StepController : MonoBehaviour {
     
     public UnityEvent OnStepFirstStart;
     [SerializeField] private DataBaseSO scriptDB;
+    [SerializeField] public Dictionary<int, bool> stepDoneDictionary; 
     
     private int currentStep = 0;
     
     private void OnEnable() {
+        stepDoneDictionary = new Dictionary<int, bool>();
         mainMenuView.SetContinueButton(NextStep);
         
         scriptDB.steps[0].OnYesClicked += NextStep;
@@ -42,6 +45,9 @@ public class StepController : MonoBehaviour {
         mainMenuView.ChangeStep(currentStep, scriptDB.steps[index].stepName, scriptDB.steps[index].infoPanelText);
         mainMenuView.ChangeUserInputType(scriptDB.steps[currentStep].userInputType);
         mainMenuView.ChangeInfoPanelViewContent(scriptDB.steps[currentStep].infoPanelText, scriptDB.steps[currentStep].infoVideoClip, scriptDB.steps[currentStep].infoSprites);
+        
+        // Write showing step in dictionary
+        stepDoneDictionary.TryAdd(currentStep, true);
     }
     
     public void YesCallback() {
@@ -77,6 +83,7 @@ public class StepController : MonoBehaviour {
     }
     
     public void RestartApplication() {
+        stepDoneDictionary = new Dictionary<int, bool>();
         currentStep = 0;
         mainMenuView.HideEndScreen();
         mainMenuView.ResetButtons();
