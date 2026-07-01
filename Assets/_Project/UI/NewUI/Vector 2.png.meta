@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: 659c67d57bbb0054d85da2da58f18e93
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4319018798289120088
+    second: Vector 2_0
+  - first:
+      213: -7072806850243021255
+    second: Vector 2_1
+  - first:
+      213: 430679496204409494
+    second: Vector 2_2
+  - first:
+      213: 3954129036006127429
+    second: Vector 2_3
+  - first:
+      213: 7317779169796456668
+    second: Vector 2_4
+  - first:
+      213: 5109988800505229823
+    second: Vector 2_5
+  - first:
+      213: 5518390987589600963
+    second: Vector 2_6
+  - first:
+      213: 5817342980828006116
+    second: Vector 2_7
+  - first:
+      213: 3332701915025064085
+    second: Vector 2_8
+  - first:
+      213: -596961264756736832
+    second: Vector 2_9
+  - first:
+      213: -2991317395133489223
+    second: Vector 2_10
+  - first:
+      213: 7894391938883653414
+    second: Vector 2_11
+  - first:
+      213: -5356226992022298737
+    second: Vector 2_12
+  - first:
+      213: 2052869299587333056
+    second: Vector 2_13
+  - first:
+      213: -695279285251023701
+    second: Vector 2_14
+  - first:
+      213: -4390380422255655865
+    second: Vector 2_15
+  - first:
+      213: 4154029746531321405
+    second: Vector 2_16
+  - first:
+      213: -2321843990002051912
+    second: Vector 2_17
+  - first:
+      213: -5062801196988068665
+    second: Vector 2_18
+  - first:
+      213: -5897968938589580585
+    second: Vector 2_19
+  - first:
+      213: 5846944435928281962
+    second: Vector 2_20
+  - first:
+      213: 8357318131709709709
+    second: Vector 2_21
+  - first:
+      213: 1616345404080320629
+    second: Vector 2_22
+  - first:
+      213: 729266912528318952
+    second: Vector 2_23
+  - first:
+      213: -5993054137256245327
+    second: Vector 2_24
+  - first:
+      213: 3795672431959761147
+    second: Vector 2_25
+  - first:
+      213: -7664674448621696158
+    second: Vector 2_26
+  - first:
+      213: 3099022837122295440
+    second: Vector 2_27
+  - first:
+      213: -5702365547757292978
+    second: Vector 2_28
+  - first:
+      213: 7123209568381885099
+    second: Vector 2_29
+  - first:
+      213: 8055395567814551701
+    second: Vector 2_30
+  - first:
+      213: 6692891501147005566
+    second: Vector 2_31
+  - first:
+      213: -8768516912863730659
+    second: Vector 2_32
+  - first:
+      213: -7042408896961462841
+    second: Vector 2_33
+  - first:
+      213: 1407862824323912078
+    second: Vector 2_34
+  - first:
+      213: -1557898925510541980
+    second: Vector 2_35
+  - first:
+      213: -729526503322104087
+    second: Vector 2_36
+  - first:
+      213: -481151558394513264
+    second: Vector 2_37
+  - first:
+      213: -2477691006469173715
+    second: Vector 2_38
+  - first:
+      213: -8218021587472587309
+    second: Vector 2_39
+  - first:
+      213: -4684590677353501966
+    second: Vector 2_40
+  - first:
+      213: 6106257167976811941
+    second: Vector 2_41
+  - first:
+      213: 3219099552143898554
+    second: Vector 2_42
+  - first:
+      213: -6405903865989308397
+    second: Vector 2_43
+  - first:
+      213: -5768427633033804231
+    second: Vector 2_44
+  - first:
+      213: -7885341931780669959
+    second: Vector 2_45
+  - first:
+      213: -3307138658689516633
+    second: Vector 2_46
+  - first:
+      213: 6963837412828649216
+    second: Vector 2_47
+  - first:
+      213: 4025551688846442686
+    second: Vector 2_48
+  - first:
+      213: 6517455202395393382
+    second: Vector 2_49
+  - first:
+      213: -469899367855480078
+    second: Vector 2_50
+  - first:
+      213: 4460958683386550072
+    second: Vector 2_51
+  - first:
+      213: -2329051399097458217
+    second: Vector 2_52
+  - first:
+      213: -5794393777698935477
+    second: Vector 2_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Vector 2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1171
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85be142c6bc30fb30800000000000000
+      internalID: 4319018798289120088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1171
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936b05e94a758dd90800000000000000
+      internalID: -7072806850243021255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1168
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ade4f48b41af500800000000000000
+      internalID: 430679496204409494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_3
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1144
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547f33b8863efd630800000000000000
+      internalID: 3954129036006127429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_4
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1120
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd088783269fd8560800000000000000
+      internalID: 7317779169796456668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_5
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1096
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff1b65c7db35ae640800000000000000
+      internalID: 5109988800505229823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_6
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1072
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6cef29d53459c40800000000000000
+      internalID: 5518390987589600963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_7
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1048
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e68dd49e9a5bb050800000000000000
+      internalID: 5817342980828006116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_8
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1024
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590455bfbb2204e20800000000000000
+      internalID: 3332701915025064085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_9
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1000
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ccb18d74ea27b7f0800000000000000
+      internalID: -596961264756736832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 976
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf1f948da4bc76d0800000000000000
+      internalID: -2991317395133489223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_11
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 952
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62f0ed264a38e8d60800000000000000
+      internalID: 7894391938883653414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 928
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fd624edebdaa5b0800000000000000
+      internalID: -5356226992022298737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 904
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb353c50c14d7c10800000000000000
+      internalID: 2052869299587333056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_14
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 881
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacdcee7c2fd956f0800000000000000
+      internalID: -695279285251023701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_15
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 857
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7444f96644c3213c0800000000000000
+      internalID: -4390380422255655865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_16
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 833
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36c764ab0416a930800000000000000
+      internalID: 4154029746531321405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_17
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 809
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b45d08513727cfd0800000000000000
+      internalID: -2321843990002051912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 785
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc8a1d92215db9b0800000000000000
+      internalID: -5062801196988068665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_19
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 761
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d29417cf74362ea0800000000000000
+      internalID: -5897968938589580585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_20
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 737
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63b3fc6cf4842150800000000000000
+      internalID: 5846944435928281962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_21
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 713
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d0d73df882bf370800000000000000
+      internalID: 8357318131709709709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 689
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570fa8cc4996e6610800000000000000
+      internalID: 1616345404080320629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 665
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e142b3a460ee1a00800000000000000
+      internalID: 729266912528318952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_24
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 641
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b70825c30564dca0800000000000000
+      internalID: -5993054137256245327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_25
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 617
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf064be67ffeca430800000000000000
+      internalID: 3795672431959761147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 594
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b04eab23b91a590800000000000000
+      internalID: -7664674448621696158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_27
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 570
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0966f7dd9d0f10b20800000000000000
+      internalID: 3099022837122295440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_28
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 546
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42308a2fb02dd0b0800000000000000
+      internalID: -5702365547757292978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_29
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 522
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baad010bc59bad260800000000000000
+      internalID: 7123209568381885099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_30
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 498
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598a7d0f6938acf60800000000000000
+      internalID: 8055395567814551701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_31
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 474
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72291e1c5de1ec50800000000000000
+      internalID: 6692891501147005566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_32
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 450
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14a0c94358ff4680800000000000000
+      internalID: -8768516912863730659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 426
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdbf85ab66544e90800000000000000
+      internalID: -7042408896961462841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_34
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 402
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e811e4097cbb98310800000000000000
+      internalID: 1407862824323912078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_35
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 378
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d3bfc6e2b316ae0800000000000000
+      internalID: -1557898925510541980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_36
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 354
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eec04ba28330e5f0800000000000000
+      internalID: -729526503322104087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_37
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 330
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098f4c6f43b9259f0800000000000000
+      internalID: -481151558394513264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_38
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 307
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e893038297d9dd0800000000000000
+      internalID: -2477691006469173715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_39
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 283
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5643a38e8b3fd80800000000000000
+      internalID: -8218021587472587309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_40
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 259
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faec36599dfcfeb0800000000000000
+      internalID: -4684590677353501966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_41
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 235
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adc07cba88cdb450800000000000000
+      internalID: 6106257167976811941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_42
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 211
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7f726bcf98cac20800000000000000
+      internalID: 3219099552143898554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_43
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 187
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310e762bf58a917a0800000000000000
+      internalID: -6405903865989308397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_44
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 163
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936097451ad62ffa0800000000000000
+      internalID: -5768427633033804231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_45
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 139
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd78b79a43a19290800000000000000
+      internalID: -7885341931780669959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_46
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 115
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab79d179eeaa12d0800000000000000
+      internalID: -3307138658689516633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_47
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 91
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0071a312b3584a060800000000000000
+      internalID: 6963837412828649216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_48
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 67
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb08aa6cee1add730800000000000000
+      internalID: 4025551688846442686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_49
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 43
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d8c42c9f6a27a50800000000000000
+      internalID: 6517455202395393382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_50
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 20
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f22bcab3059a79f0800000000000000
+      internalID: -469899367855480078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83713f0994288ed30800000000000000
+      internalID: 4460958683386550072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_52
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d16b25a71c8dafd0800000000000000
+      internalID: -2329051399097458217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vector 2_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d65872f8d269fa0800000000000000
+      internalID: -5794393777698935477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Vector 2_0: 4319018798289120088
+      Vector 2_1: -7072806850243021255
+      Vector 2_10: -2991317395133489223
+      Vector 2_11: 7894391938883653414
+      Vector 2_12: -5356226992022298737
+      Vector 2_13: 2052869299587333056
+      Vector 2_14: -695279285251023701
+      Vector 2_15: -4390380422255655865
+      Vector 2_16: 4154029746531321405
+      Vector 2_17: -2321843990002051912
+      Vector 2_18: -5062801196988068665
+      Vector 2_19: -5897968938589580585
+      Vector 2_2: 430679496204409494
+      Vector 2_20: 5846944435928281962
+      Vector 2_21: 8357318131709709709
+      Vector 2_22: 1616345404080320629
+      Vector 2_23: 729266912528318952
+      Vector 2_24: -5993054137256245327
+      Vector 2_25: 3795672431959761147
+      Vector 2_26: -7664674448621696158
+      Vector 2_27: 3099022837122295440
+      Vector 2_28: -5702365547757292978
+      Vector 2_29: 7123209568381885099
+      Vector 2_3: 3954129036006127429
+      Vector 2_30: 8055395567814551701
+      Vector 2_31: 6692891501147005566
+      Vector 2_32: -8768516912863730659
+      Vector 2_33: -7042408896961462841
+      Vector 2_34: 1407862824323912078
+      Vector 2_35: -1557898925510541980
+      Vector 2_36: -729526503322104087
+      Vector 2_37: -481151558394513264
+      Vector 2_38: -2477691006469173715
+      Vector 2_39: -8218021587472587309
+      Vector 2_4: 7317779169796456668
+      Vector 2_40: -4684590677353501966
+      Vector 2_41: 6106257167976811941
+      Vector 2_42: 3219099552143898554
+      Vector 2_43: -6405903865989308397
+      Vector 2_44: -5768427633033804231
+      Vector 2_45: -7885341931780669959
+      Vector 2_46: -3307138658689516633
+      Vector 2_47: 6963837412828649216
+      Vector 2_48: 4025551688846442686
+      Vector 2_49: 6517455202395393382
+      Vector 2_5: 5109988800505229823
+      Vector 2_50: -469899367855480078
+      Vector 2_51: 4460958683386550072
+      Vector 2_52: -2329051399097458217
+      Vector 2_53: -5794393777698935477
+      Vector 2_6: 5518390987589600963
+      Vector 2_7: 5817342980828006116
+      Vector 2_8: 3332701915025064085
+      Vector 2_9: -596961264756736832
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
