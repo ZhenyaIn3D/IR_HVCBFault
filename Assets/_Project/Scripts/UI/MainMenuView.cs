@@ -114,7 +114,7 @@ public class MainMenuView : MonoBehaviour
 
         // Собираем строку с маркерами
         string reversedIndex = formattedIndex[1].ToString() + formattedIndex[0].ToString();
-        nameStepText.text = $"{stepName} | {reversedIndex}";
+        nameStepText.text = $"{reversedIndex}  | {stepName}";
         
         for (var i = 0; i < index; i++) {
             var stepCell = stepCells[i];
