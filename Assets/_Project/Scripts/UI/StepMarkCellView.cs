@@ -27,10 +27,10 @@ namespace _Project.Scripts.UI {
         public void SetMarkFinished(bool isFinished) {
             if (isFinished)
             {
-                markImage.color = new Color(0.1f, 0.75f, 0.61f);
+                markImage.color = new Color32(0x12, 0x84, 0x66, 0xFF); // success, белая галочка 4.65:1
                 checkMArkImage.gameObject.SetActive(true);
             } else {
-                markImage.color = new Color(0.4f, 0.4f, 0.4f, 0.59f);
+                markImage.color = new Color32(0xB8, 0xBB, 0xCB, 0xFF); // нейтральный серо-синий из палитры
                 checkMArkImage.gameObject.SetActive(false);
             }
         }
