@@ -1081,8 +1081,8 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 77bb9f3ab9e295c42956cc12a434f86b, type: 3}
-  mMotionHint: 1
+  mRuntimeTexture: {fileID: 2800000, guid: faf25ededf060424095da33007c15acf, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 32740112}
@@ -7248,7 +7248,7 @@ Transform:
   m_GameObject: {fileID: 302400331}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.082280844, y: 0, z: 0.007225518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8901,7 +8901,7 @@ Transform:
   m_GameObject: {fileID: 365941805}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.082280844, y: 0, z: 0.007225518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9435,7 +9435,7 @@ Transform:
   m_GameObject: {fileID: 386658319}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.015408991, y: 0, z: 0.07163796}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11019,7 +11019,7 @@ Transform:
   m_GameObject: {fileID: 436930452}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.10447593, y: 0, z: 0.004928956}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12400,6 +12400,7 @@ GameObject:
   - component: {fileID: 509818099}
   - component: {fileID: 509818098}
   - component: {fileID: 509818097}
+  - component: {fileID: 509818102}
   m_Layer: 0
   m_Name: ARCamera
   m_TagString: MainCamera
@@ -12507,6 +12508,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &509818102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509818096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1245292855, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
+  mTrackableName: 
+  mInitializedInEditor: 0
 --- !u!1 &511638232
 GameObject:
   m_ObjectHideFlags: 0
@@ -14403,8 +14421,8 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 15c4178fa5602634b8e5b25be026ddaf, type: 3}
-  mMotionHint: 1
+  mRuntimeTexture: {fileID: 2800000, guid: 14d0e5b709d4a1647aa37da1fc314e52, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 578779275}
@@ -16154,12 +16172,12 @@ MonoBehaviour:
   mTrackableName: step_8
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/--- EMPTY ---.xml
-  mAspectRatio: 1.588843
+  mAspectRatio: 1.3958334
   mImageTargetType: 3
-  mWidth: 0.12587777
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 992f33d684972994aa8d9bbc79db53f6, type: 3}
-  mMotionHint: 1
+  mWidth: 0.2497446
+  mHeight: 0.34860185
+  mRuntimeTexture: {fileID: 2800000, guid: 931fa2344e1c9b645a9aa82286feeff9, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 656576107}
@@ -21468,7 +21486,7 @@ MonoBehaviour:
   mWidth: 0.2
   mHeight: 0.15
   mRuntimeTexture: {fileID: 2800000, guid: 2bf6ea5df3d2119499c39d4efd7270eb, type: 3}
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 933694622}
@@ -24081,8 +24099,8 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 15c4178fa5602634b8e5b25be026ddaf, type: 3}
-  mMotionHint: 1
+  mRuntimeTexture: {fileID: 2800000, guid: 14d0e5b709d4a1647aa37da1fc314e52, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1035414400}
@@ -26251,7 +26269,7 @@ Transform:
   m_GameObject: {fileID: 1153925291}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.082280844, y: 0, z: 0.007225518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -29753,8 +29771,8 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: b1c3ce523456f0a4980970c76710a66a, type: 3}
-  mMotionHint: 1
+  mRuntimeTexture: {fileID: 2800000, guid: e79f1fdc01d3660469f3e5438fcfdad0, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1323814581}
@@ -34402,7 +34420,7 @@ MonoBehaviour:
   mWidth: 0.12587777
   mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 992f33d684972994aa8d9bbc79db53f6, type: 3}
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1557165913}
@@ -35062,8 +35080,8 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 15c4178fa5602634b8e5b25be026ddaf, type: 3}
-  mMotionHint: 1
+  mRuntimeTexture: {fileID: 2800000, guid: 14d0e5b709d4a1647aa37da1fc314e52, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1577870642}
@@ -35211,8 +35229,8 @@ MonoBehaviour:
   mImageTargetType: 3
   mWidth: 0.15
   mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 77bb9f3ab9e295c42956cc12a434f86b, type: 3}
-  mMotionHint: 1
+  mRuntimeTexture: {fileID: 2800000, guid: faf25ededf060424095da33007c15acf, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1586102475}
@@ -39289,12 +39307,12 @@ MonoBehaviour:
     2026-07-05 104257"
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/--- EMPTY ---.xml
-  mAspectRatio: 2.891089
+  mAspectRatio: 1.2044535
   mImageTargetType: 3
-  mWidth: 0.043689385
-  mHeight: 0.1263099
-  mRuntimeTexture: {fileID: 2800000, guid: 05175058742f3ad4ea3df81577034d38, type: 3}
-  mMotionHint: 1
+  mWidth: 0.258474
+  mHeight: 0.3113199
+  mRuntimeTexture: {fileID: 2800000, guid: 1bfb7d4e6cdd1cd48aa2ea8fd7189ed2, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1753031792}
@@ -40189,7 +40207,7 @@ MonoBehaviour:
   mWidth: 0.15
   mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 99de50490ab1a474a8a48e5341276056, type: 3}
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1780775695}
@@ -40325,7 +40343,7 @@ Transform:
   m_GameObject: {fileID: 1795924734}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.015408991, y: 0, z: 0.07163796}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -42630,7 +42648,7 @@ MonoBehaviour:
   mWidth: 0.15
   mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 5e6e7bc74d4bf4e8398d937fa9c035f0, type: 3}
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 1946578202}
@@ -42697,7 +42715,7 @@ Transform:
   m_GameObject: {fileID: 1946674826}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.082280844, y: 0, z: 0.007225518}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -43487,7 +43505,7 @@ Transform:
   m_GameObject: {fileID: 1991663273}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.10447593, y: 0, z: 0.004928956}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45516,12 +45534,12 @@ MonoBehaviour:
   mTrackableName: step_10
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/--- EMPTY ---.xml
-  mAspectRatio: 1.83213
+  mAspectRatio: 1.1405672
   mImageTargetType: 3
-  mWidth: 0.10916256
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: 9421f901b30381048be37678b7df8f61, type: 3}
-  mMotionHint: 1
+  mWidth: 0.31984726
+  mHeight: 0.36480728
+  mRuntimeTexture: {fileID: 2800000, guid: abb87c0f6730bac4c85d89a23e4193e3, type: 3}
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 2036455229}
@@ -46552,7 +46570,7 @@ MonoBehaviour:
   mWidth: 0.15
   mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 2a494beb950b95943b447ffb6b719e14, type: 3}
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 2076575836}
@@ -47351,7 +47369,7 @@ MonoBehaviour:
   mWidth: 0.15
   mHeight: 0.2
   mRuntimeTexture: {fileID: 2800000, guid: 99de50490ab1a474a8a48e5341276056, type: 3}
-  mMotionHint: 1
+  mMotionHint: 0
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mPreview: {fileID: 2107734700}

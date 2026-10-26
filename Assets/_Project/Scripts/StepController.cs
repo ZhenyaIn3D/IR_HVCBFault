@@ -11,7 +11,8 @@ public class StepController : MonoBehaviour {
     
     public UnityEvent OnStepFirstStart;
     [SerializeField] private DataBaseSO scriptDB;
-    [SerializeField] public Dictionary<int, bool> stepDoneDictionary; 
+    // Создаём сразу: StepMarkCellView читает словарь в своём OnEnable, который может сработать раньше нашего
+    [SerializeField] public Dictionary<int, bool> stepDoneDictionary = new Dictionary<int, bool>();
     
     private int currentStep = 0;
     
