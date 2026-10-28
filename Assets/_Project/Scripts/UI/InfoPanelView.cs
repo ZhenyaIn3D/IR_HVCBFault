@@ -40,6 +40,8 @@ public class InfoPanelView : MonoBehaviour
             isExtraButtonClicked = true;
             extraInfoButton.transform.rotation = Quaternion.Euler(0, 0, 45);
             extraInfoPanel.SetActive(true);
+            // Stop resets playback to the start, so the clip always plays from the beginning
+            videoPlayer.Stop();
             videoPlayer.Play();
         }
     }
@@ -54,6 +56,13 @@ public class InfoPanelView : MonoBehaviour
         {
             isExtraButtonClicked = false;
             extraInfoButton.transform.rotation = Quaternion.Euler(0, 0, 0);
+            videoPlayer.Stop();
+        }
+        else if (videoInfo.activeSelf && videoPlayer.clip)
+        {
+            // Stop resets playback to the start, so the clip always plays from the beginning
+            videoPlayer.Stop();
+            videoPlayer.Play();
         }
     }
 
@@ -62,7 +71,13 @@ public class InfoPanelView : MonoBehaviour
         if (videoClip == null) {
             videoInfo.SetActive(false);
         }
-        
+
+        if (videoClip) {
+            videoPlayer.Stop();
+            videoPlayer.clip = videoClip;
+            videoInfo.SetActive(true);
+        }
+
         if (sprites.IsEmpty()) {
             foreach (var img in imagesInfo) {
                 img.gameObject.SetActive(false);
@@ -103,6 +118,7 @@ public class InfoPanelView : MonoBehaviour
         }
 
         if (videoClip) {
+            videoPlayer.Stop();
             videoPlayer.clip = videoClip;
             videoInfo.SetActive(true);
         }
